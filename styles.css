@@ -1,3 +1,35 @@
+.a{
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.b{
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.blogName{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogLink{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.brownCircle{
+    height: 10rem;
+    width: 15rem;
+    z-index: -5;
+    left: 23rem;
+    position: absolute;
+    top: 150rem;
+    z-index: -15;
+}
+
 body{
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -5,24 +37,113 @@ body{
     overflow-x: hidden;
 }
 
+.circle1{
+    height: 32px;
+    width: 30px;
+}
+
 .content{
     display: flex;
     justify-content: flex-end;
 }
 
-.logoImg{
-    height: 6rem;
-    width: 6rem;
+.courses{
+    font-weight: 1000;
+    font-size: 55px;
+    color: #59DEAE;
+}
+
+.course{
+    font-weight: 1000;
+    font-size: 35px;
+    color: #59DEAE;
+}
+
+.coursef3{
+    font-weight: 1000;
+    font-size: 50px;
+    color: white;
+}
+
+.examName{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.f5ExamName{
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: left;
+    font-size: 20px;
+}
+
+.f5RegLink{
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: left;
+    font-size: 20px;
+}
+
+.f5BlogName{
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.f5BlogLink{
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.firstPara{
+    font-weight: 800;
+    line-height: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.firstParaf3{
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: left;
+    font-size: 20px;
 }
 
 .frame1{
-    height: 100vh;
+    height: 63vh;
     width: 100vw;
     background-color: inherit;
+    z-index: 10;
 }
 
 .frame2{
-    background-color: #434141;
+    height: 125vh;
+    width: 100vw;
+    background-image: url(image\ 1.png);
+    opacity: 1;
+    z-index: -10;
+}
+
+.frame3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(frame3bg.png);
+}
+
+.frame3{
+    height: 100vh;
+    width: 100vw;
+}
+
+.frame5{
+    display: flex;
+    flex-direction: row;
 }
 
 .greenCircle{
@@ -42,35 +163,109 @@ body{
     width: 25rem;
     background-color: aquamarine;
     position: relative;
-    z-index: -10;
+    z-index: -2;
     left: 47.5rem;
+}
+
+.greenCircleF4{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    top: 114rem;
+    z-index: -5;
+    left: 43rem;
 }
 
 .greyCircle{
     position: relative;
-    z-index: -5;
+    z-index: -2;
     height: 37%;
     width: 37%;
     top: 14rem;
     left: 3rem;
 }
 
-.signUp, .logIn {
-    padding: 0.5rem;
-    background: #434141;
-    border: 0;
-    height: 2rem;
-    width: 6rem;
-    font-size: 100%;
-    border-radius: 25px;
-    cursor: pointer;
+.heading1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
 }
 
-.signUp, .logIn:hover {
-    border: 2px solid black;
-    color: #ffffff;
-    font-size: 105%;
-    transition: 1s;
+.heading2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-self:flex-start;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.heading3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items:end;
+}
+
+.heading4{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items:end;
+    justify-content: center;
+}
+
+.heading5{
+    column-gap: 10px;
+    align-items:end;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.heading6{
+    column-gap: 10px;
+    align-items:end;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.heading7{
+    display: flex;
+    flex-direction: row;
+}
+
+.journey{
+    margin-top: 3rem;
+    font-weight: 1000;
+    font-size: 55px;
+    color: #2E160E;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContentf5{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15%;
+    width: 100%;
+    margin: 3rem;
+}
+
+.logoImg{
+    height: 6rem;
+    width: 6rem;
 }
 
 .navBar {
@@ -110,6 +305,11 @@ body{
     padding-left: 37rem;
 }
 
+.our{
+    font-weight: 1000;
+    font-size: 55px;
+}
+
 .para{
     margin: 0;
     margin-right: 2rem;
@@ -118,6 +318,50 @@ body{
     justify-content: flex-end;
     padding-top: 5rem;
     line-height: 2.5rem;
+}
+
+.photof4{
+    display: flex;
+    justify-content: center;
+}
+
+.photoActualF4{
+    margin-top: 8rem;
+    height: 350px;
+    width: 900px;
+}
+
+.registrationLink{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #59DEAE;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContentf5{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15%;
+    width: 100%;
+    margin: 3rem;
+}
+
+.secondPara{
+    font-weight: 800;
+    line-height: 2rem;
+    justify-content: center;
+    margin-left: 12.5%;
 }
 
 .sies{
@@ -136,4 +380,48 @@ body{
 
 .siesText{
     font-size: 25px;
+}
+
+.signUp, .logIn {
+    padding: 0.5rem;
+    background: #434141;
+    border: 0;
+    height: 2rem;
+    width: 6rem;
+    font-size: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.signUp:hover, .logIn:hover {
+    border: 2px solid black;
+    color: #ffffff;
+    font-size: 105%;
+    transition: 1s;
+}
+
+.sixCircles{
+    align-self: flex-end;
+}
+
+.textFrame2{
+    position: absolute;
+    top: 35rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.textFrame3{
+    position: absolute;
+    top: 80rem;
+    margin-left: 7%;
+}
+
+.your{
+    font-weight: 1000;
+    font-size: 55px;
+    color: #2E160E;
 }
