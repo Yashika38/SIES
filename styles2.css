@@ -1,0 +1,387 @@
+.arrow{
+    width: 7rem;
+    height: 1.2rem;
+    margin-top: 7.3rem;
+}
+
+.arrow1F2{
+    height: 50%;
+}
+
+.arrow2{
+    width: 11rem;
+    height: 1.2rem;
+    margin-top: 7.3rem;
+}
+
+.arrow2F2{
+    position: relative;
+    top: 19rem;
+    left: 15rem;
+    height: 30%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.class{
+    line-height: 1.5rem;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.circle1F2{
+    position: relative;
+    top: 21rem;
+    left: 0.2rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle2F2{
+    position: relative;
+    top: 16rem;
+    left: 0.2rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle3F2{
+    position: relative;
+    top: 11rem;
+    left: 0.2rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle4F2{
+    position: relative;
+    left: -2rem;
+    top: 23.5rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle5F2{
+    position: relative;
+    left: -4.2rem;
+    top: 21rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle6F2{
+    position: relative;
+    /* left: -10rem;
+    top: 21rem; */
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle7F2{
+    position: relative;
+    /* left: -10rem;
+    height: 2.3rem; */
+    width: 2rem;
+}
+
+.circle8F2{
+    position: relative;
+    /* left: -10rem;
+    height: 2.3rem; */
+    width: 2rem;
+}
+
+.circle9F2{
+    position: relative;
+    left: -17.3rem;
+    top: 8.9rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle10F2{
+    position: relative;
+    left: -14.9rem;
+    top: 6.35rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle11F2{
+    position: relative;
+    left: -12.5rem;
+    top: 3.8rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle1F3{
+    position: relative;
+    top: 21rem;
+    left: 0.2rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle2F3{
+    position: relative;
+    top: 16rem;
+    left: 0.2rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle3F3{
+    position: relative;
+    top: 11rem;
+    left: 0.2rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle4F3{
+    position: relative;
+    left: -2rem;
+    top: 23.5rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle5F3{
+    position: relative;
+    left: -4.2rem;
+    top: 21rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle6F3{
+    position: relative;
+    /* left: -10rem;
+    top: 21rem; */
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle7F3{
+    position: relative;
+    /* left: -10rem;
+    height: 2.3rem; */
+    width: 2rem;
+}
+
+.circle8F3{
+    position: relative;
+    /* left: -10rem;
+    height: 2.3rem; */
+    width: 2rem;
+}
+
+.circle9F3{
+    position: relative;
+    left: -17.3rem;
+    top: 8.9rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle10F3{
+    position: relative;
+    left: -14.9rem;
+    top: 6.35rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.circle11F3{
+    position: relative;
+    left: -12.5rem;
+    top: 3.8rem;
+    height: 2.3rem;
+    width: 2rem;
+}
+
+.courseB{
+    font-size: 24px;
+    font-weight: 550;
+    text-align: end;
+    padding-right: 1rem;
+}
+
+.frame1{
+    display: flex;
+    flex-direction: row;
+}
+
+.frame2{
+    display: flex;
+    flex-direction: row;
+}
+
+.frame3{
+    display: flex;
+    flex-direction: row;
+}
+
+.greenCircleF1{
+    position: absolute;
+    height: 16.5em;
+    width: 15rem;
+    top: 5.6rem;
+    z-index: -5;
+    left: 66rem;
+}
+
+.heading1F1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: end;
+    margin-left: 23rem;
+}
+
+.logoImg{
+    height: 6rem;
+    width: 6rem;
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12rem;
+    height: 7rem;
+    max-width: 100%;
+    z-index: 5;
+}
+
+.navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.navItem {
+    cursor: pointer;
+    color: #444;
+    border: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 105%;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+    padding-left: 31rem;
+}
+
+.poster{
+    height: 28.4rem;
+    width: 20.4rem;
+}
+
+.poster2{
+    height: 23.4rem;
+    width: 15.4rem;
+    margin-top: 0rem;
+}
+
+.poster2nd{
+    height: 23.4rem;
+    width: 15.4rem;
+    margin-top: 0rem;
+}
+
+.poster2F2Text{
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 1.8rem;
+    display: flex;
+    width: 10rem;
+}
+
+.poster3{
+    height: 23.4rem;
+    width: 15.4rem;
+    margin-top: 6.6rem;
+    align-self: flex-end;
+}
+
+.poster3F2{
+    margin-left: 10.5rem;
+}
+
+.poster3F3{
+    margin-left: 8.7rem;
+}
+
+.poster3F2Text{
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 1.8rem;
+    width: 120%;
+}
+
+.rightSideTextF1{
+    margin-left: 25rem;
+}
+
+.registrationLinkF1{
+    line-height: 2rem;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.studentProfileBtn, .aboutUsBtn {
+    padding: 0.5rem;
+    background: #434141;
+    border: 0;
+    height: 2rem;
+    width: 8rem;
+    font-size: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.studentProfileBtn:hover, .aboutUsBtn:hover {
+    border: 2px solid black;
+    color: #ffffff;
+    font-size: 102%;
+    transition: 1s;
+}
+
+.textDivF2Poster2{
+    position: relative;
+    top: 4.5rem;
+    left: 1rem;
+    height: 50%;
+}
+
+.textDivF2Poster3{
+    position: relative;
+    top: 22rem;
+    left: -5BTrem;
+    width: 706px;
+    height: 151px;
+}
+
+.threeHorizontalCircle{
+    position: relative;
+    left: -17.6rem;
+    top: 9rem;
+    height: 70%;
+}
+
+

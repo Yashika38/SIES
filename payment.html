@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Payment Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Online Payment Page</h1>
+    
+    <h2>Select Payment Method:</h2>
+    <div id="payment-methods">
+    <label>
+        <input type="radio" name="paymentMethod" value="card" checked>
+        Credit/Debit Card
+    </label>
+    <label>
+        <input type="radio" name="paymentMethod" value="netbanking">
+        Net Banking
+    </label>
+    <label>
+        <input type="radio" name="paymentMethod" value="upi">
+        UPI
+    </label>
+    </div>
+    
+    <div id="card-details" class="payment-details">
+    <h3>Card Details</h3>
+    <input type="text" id="cardNumber" placeholder="Card Number">
+    <input type="text" id="cardHolder" placeholder="Card Holder Name">
+    <input type="text" id="expiryDate" placeholder="Expiry Date (MM/YY)">
+    <input type="text" id="cvv" placeholder="CVV">
+    </div>
+    
+    <div id="netbanking-details" class="payment-details">
+    <h3>Net Banking Details</h3>
+    <input type="text" id="bankName" placeholder="Bank Name">
+    <input type="text" id="accountNumber" placeholder="Account Number">
+    <input type="text" id="ifscCode" placeholder="IFSC Code">
+    </div>
+    
+    <div id="upi-details" class="payment-details">
+    <h3>UPI Details</h3>
+    <input type="text" id="upiId" placeholder="UPI ID">
+    </div>
+    
+    <button id="payButton" onclick="processPayment()">Pay Now</button>
+    
+    <script src="paymentPage.js"></script>
+</body>
+</html>
